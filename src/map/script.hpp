@@ -470,7 +470,6 @@ enum unitdata_mobtypes {
 	UMOB_AMOTION,
 	UMOB_ADELAY,
 	UMOB_DMOTION,
-	UMOB_TARGETID,
 };
 
 enum unitdata_homuntypes {
@@ -513,7 +512,6 @@ enum unitdata_homuntypes {
 	UHOM_AMOTION,
 	UHOM_ADELAY,
 	UHOM_DMOTION,
-	UHOM_TARGETID,
 };
 
 enum unitdata_pettypes {
@@ -593,7 +591,6 @@ enum unitdata_merctypes {
 	UMER_AMOTION,
 	UMER_ADELAY,
 	UMER_DMOTION,
-	UMER_TARGETID,
 };
 
 enum unitdata_elemtypes {
@@ -635,7 +632,6 @@ enum unitdata_elemtypes {
 	UELE_AMOTION,
 	UELE_ADELAY,
 	UELE_DMOTION,
-	UELE_TARGETID,
 };
 
 enum unitdata_npctypes {
