@@ -9731,7 +9731,6 @@ ACMD_FUNC(costume) {
 		"Wedding",
 		"Xmas",
 		"Summer",
-		"Summer2"
 		"Hanbok",
 		"Oktoberfest",
 	};
@@ -9739,7 +9738,6 @@ ACMD_FUNC(costume) {
 		SC_WEDDING,
 		SC_XMAS,
 		SC_SUMMER,
-		SC_DRESSUP,
 		SC_HANBOK,
 		SC_OKTOBERFEST
 	};
@@ -9781,7 +9779,7 @@ ACMD_FUNC(costume) {
 		return -1;
 	}
 
-	sc_start(&sd->bl, &sd->bl, (sc_type)name2id[k], 100, name2id[k] == SC_DRESSUP ? 1 : 0, -1);
+	sc_start(&sd->bl, &sd->bl, (sc_type)name2id[k], 100, 0, -1);
 
 	return 0;
 }
