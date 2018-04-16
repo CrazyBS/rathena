@@ -434,7 +434,6 @@ struct s_homunculus {	//[orn]
 	int luk_value;
 
 	char spiritball; //for homun S [lighta]
-	bool autofeed;
 };
 
 struct s_mercenary {
