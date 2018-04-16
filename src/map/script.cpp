@@ -9246,7 +9246,6 @@ BUILDIN_FUNC(bonus)
 	}
 
 	switch( script_lastdata(st)-2 ) {
-		case 0:
 		case 1:
 			pc_bonus(sd, type, val1);
 			break;
