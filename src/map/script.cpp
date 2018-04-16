@@ -13581,12 +13581,7 @@ BUILDIN_FUNC(setwall)
 BUILDIN_FUNC(delwall)
 {
 	const char *name = script_getstr(st,2);
-
-	if( !map_iwall_remove(name) ){
-		ShowError( "buildin_delwall: wall \"%s\" does not exist.\n", name );
-		return SCRIPT_CMD_FAILURE;
-	}
-
+	map_iwall_remove(name);
 	return SCRIPT_CMD_SUCCESS;
 }
 
